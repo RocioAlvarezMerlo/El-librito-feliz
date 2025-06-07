@@ -14,6 +14,9 @@ make
 
 El ejecutable se generará en `bin/librito`.
 
+También puede abrir el proyecto en Code::Blocks utilizando el archivo
+`librito.cbp` incluido en el repositorio.
+
 ## Uso
 
 Ejecute el programa y siga el menú interactivo:
