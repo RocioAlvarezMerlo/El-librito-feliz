@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+    <FileVersion major="1" minor="6" />
+    <Project>
+        <Option title="El-librito-feliz" />
+        <Option compiler="gcc" />
+        <Build>
+            <Target title="Release">
+                <Option output="bin/librito" prefix_auto="0" />
+                <Option object_output="obj" />
+                <Option type="1" />
+                <Option compiler="gcc" />
+            </Target>
+        </Build>
+        <Compiler>
+            <Add option="-std=c++17" />
+            <Add option="-Wall" />
+            <Add directory="include" />
+        </Compiler>
+        <Unit filename="src/main.cpp" />
+        <Unit filename="src/Biblioteca.cpp" />
+        <Unit filename="src/Libro.cpp" />
+        <Unit filename="src/Pago.cpp" />
+        <Unit filename="src/Prestamo.cpp" />
+        <Unit filename="src/Socio.cpp" />
+        <Unit filename="include/Biblioteca.h" />
+        <Unit filename="include/Libro.h" />
+        <Unit filename="include/Pago.h" />
+        <Unit filename="include/Prestamo.h" />
+        <Unit filename="include/Socio.h" />
+        <Extensions>
+            <code_completion />
+            <debugger />
+        </Extensions>
+    </Project>
+</CodeBlocks_project_file>
